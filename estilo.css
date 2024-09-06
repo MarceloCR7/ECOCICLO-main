@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "lexend";
+    src: url(ECOCICLO-main/font/Lexend-VariableFont_wght.ttf);
+}
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(ECOCICLO-main/img/fundo.png);
+    background-size: cover;
+    height: 500px;
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 80px;
+    font-weight: 500;
+}
+.subtitulo{
+    font-family: "lexend";
+    font-size: 30px;
+}
+body {
+    background-color: #598C38;
+}
+.imagem{
+    height: 300px;
+}
+.divisao {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.texto {
+    font-family: "lexend";
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+}
+.nome{
+    font-family: "lexend";
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+   padding-top: 60px;
+}
+.redes{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+    padding: 15px;
+    }
+    .sobre{
+        background-color: #F4F3F3;
+    }
+    .sobre .nome{
+        color: #000000;
+    }
+h3{
+    color: #598C38;
+    font-family: "lexend";
+    font-size: 40px;
+}
+section, footer, header {
+    padding: 0px 150px;
+}
+.sobre{
+    padding: 50px 150px ;
+}
+header{
+    padding-top: 150px;
+}
+.NImpacto{
+    background-color: #476B30;
+    flex-direction: column;
+    display: flex;
+    text-align: justify;
+    font-family: "lexend";
+}
+
+.DIVdis{
+    color: #ffffff;
+    display: flex;
+    width: 300px;
+    padding: 20px;
+}
+.textoimpacto{
+    color: #ffffff;
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-family: "lexend";
+    font-weight: 170;
+    padding: 5px;
+}
+
+.imagemimapacto {
+    width: 330px;
+    height: 250px;
+}
+.DIVsus{
+    color: #ffffff;
+    display: flex;
+    padding: 20px;
+    width: 300px;
+}
+
+.DIVparc {
+    color: #ffffff;
+    display: flex;
+    padding: 20px;
+    font-weight: 200;
+    width: 684px;
+}
+.ntituloimapacto{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 32px;
+    font-family: "lexend";
+}
+.tituloimapacto{
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 43px;
+    font-family: "lexend";
+    font-weight: 350;
+
+}
+.ntituloimapacto{
+    font-weight: 370;
+}
+.NImpacto{
+    height: 1300px;
+}
